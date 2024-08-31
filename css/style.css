@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    
+}
+
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    gap: 100px;
+   
+    
+
+    
+}
+
+.logoh{
+    width: 140px;
+}
+
+
+li{
+    display: inline;
+    margin: 8px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+    
+}
+
+
+.container{
+    width: 40%;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 70px;
+}
+
+.caja{
+    height: 280px;
+    width: 200px;
+    border-style:solid;
+    box-sizing: 50px;
+    border-color: rgb(163, 18, 18);
+    
+    
+}
+.box{
+    padding: 100px;
+    margin-top: 4px;
+}
+.boxct{
+    width: 50%;
+   margin: 5px;
+    
+}
+
+.boxct1{
+    width: 50%;
+    height: 200px;
+    
+}
+
+.mapa{
+    display: grid;
+    margin: 30px;
+    
+    justify-content: start;
+    align-content: center;
+}
+
+.redes{
+    padding: 10px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-items: end;
+    height: 100px;
+}
+
+.btn{
+    display: grid;
+    justify-content: space-evenly;
+  align-content: end;
+}
